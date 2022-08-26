@@ -1,0 +1,194 @@
+body{
+    background:url(/images/fondo1.jpg);
+    background-size:cover;
+    margin: 2% 10% 2% 10%;
+}
+
+/*--------------------------HEADER----------------------------*/
+
+header{
+    background: rgb(35, 43, 50);
+    background: linear-gradient(199deg, rgba(69,46,30,1) 0%, rgba(35,29,25,1) 50%); 
+    height: 74px;
+    margin-top: 15px;  
+}
+
+.logo{
+    width: 45px;
+    padding:20px;
+    border-radius: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    padding: 5px;  
+}
+ 
+nav ul li{
+    display: inline-block; 
+}
+
+nav ul li a{
+    padding: 10px;
+    color: #fff;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+
+
+/*--------------------------SECTION----------------------------*/
+
+.splash{
+    width: 100%;
+    height: 100%;
+    background: url(/images/fondo-splash.jpg)center center fixed;
+    background-size: cover;
+
+}
+
+.spaces{
+    padding-top: 90px;
+    padding-bottom: 350px;
+}
+
+.col-6{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.images-vinilo{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: left;
+    box-sizing: border-box;
+    width: 2550px;
+}
+.layout-flexbox{
+    background: rgb(69,46,30);
+    background: radial-gradient(circle, rgba(69,46,30,1) 0%, rgba(17,20,25,1) 77%);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+
+
+
+.box{
+    margin: 0;
+}
+.box .images-album{
+    width:200px;  
+    border-radius: 15px;
+
+}
+.box h1{
+    margin-top: 10px;
+}
+.box h1 strong span{
+    color: rgba(255, 255,255, .6);
+    margin:40px;
+  
+}
+
+.box h5 {
+    margin-top: 0px;
+}
+
+.box h5 strong span{
+    color: rgba(255, 255,255, .6);
+    
+}
+
+
+/*--------------------------CARDS----------------------------*/
+div h1{
+    color: rgb(60, 135, 112);
+    text-align: center;
+}
+
+.row{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.card{
+    box-shadow: 0 2px 2px 0 rgba(242, 236, 236, 0.412);
+    background-color: rgb(255, 255, 255);
+    margin:10px 10px 10px 10px;
+    border-radius: 6px;
+    border: solid 1px white;
+}
+
+.img-fluid{
+    border-radius: 6px;
+}
+.spaces-card{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content h3, p{
+    color: rgba(16, 15, 15, 0.8);
+    text-align: center;
+}
+
+.btn{
+    background-color:rgb(25, 135, 84);
+    padding:10px;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.btn:hover{
+    font-size: 20px;
+   box-shadow: 0 0 10px rgb(28, 32, 33);
+   color: #fff;
+
+}
+
+
+/*--------------------------FOOTER----------------------------*/
+footer{
+    *background: rgb(35, 43, 50);
+    *background: linear-gradient(199deg, rgba(69,46,30,1) 0%, rgba(35,29,25,1) 50%); 
+    color: #fff;
+}
+
+footer>p{
+    text-align: center;
+    padding: 20px;
+    color: rgb(97, 102, 107);
+}
+
+a{
+    color: inherit;
+}
+
+a:hover{
+    color: rgb(151, 56, 79);
+    transition: .5;
+}
+
+span{
+    color: rgb(97, 102, 107);
+}
